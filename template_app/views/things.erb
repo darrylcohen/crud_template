@@ -1,0 +1,24 @@
+<h1>THINGS</h1>
+
+<h2>New Enrty</h2>
+
+<a href="/things/new">New Dish</a>
+
+<h2>View 1 Thing</h2>
+
+<a href="/things/:id">
+  <%= "View 1 thing" %>
+</a>
+
+<h2>Edit a Thing</h2>
+
+<a href="/things/1/edit">Edit</a>
+
+<h2>Deleting 1 Thing</h2>
+
+<form class="" action="/things/1" method="post">
+
+  <input type="hidden" name="_method" value="delete">
+  <button type="submit" >Delete</button>
+
+</form>
